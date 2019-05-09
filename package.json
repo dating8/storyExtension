@@ -1,7 +1,7 @@
 {
-  "name": "vue-music",
+  "name": "story",
   "version": "1.0.0",
-  "description": "音乐播放器",
+  "description": "听故事",
   "author": "fyt <1072461992@qq.com>",
   "private": true,
   "scripts": {
