@@ -2,8 +2,6 @@ import * as types from './mutation-types'
 
 const matutaions = {
   [types.SET_STORY](state, story) {
-    localStorage.clear()
-    localStorage.setItem('story', JSON.stringify(story))
     state.story = story
   },
   [types.SET_PLAYING_STATE](state, flag) {

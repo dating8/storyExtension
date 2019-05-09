@@ -1,4 +1,4 @@
-export const story = state => state.story || JSON.parse(localStorage.getItem('story'))
+export const story = state => state.story
 export const playing = state => state.playing
 export const fullScreen = state => state.fullScreen
 export const playList = state => state.playList

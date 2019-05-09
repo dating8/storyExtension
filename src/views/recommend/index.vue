@@ -88,7 +88,6 @@ export default {
       this.date2 = formatDate((new Date(time - 8.64e7)), 'yyyy/MM/dd')
     },
     selectItem(item) {
-      localStorage.clear()
       this.$router.push({
         path: `/detail/${item.storyId}`
       })

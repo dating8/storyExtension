@@ -1,7 +1,7 @@
 import {playMode} from './config'
 
 const state = {
-  story: JSON.parse(localStorage.getItem('story')) || {},
+  story: {},
   playing: false,
   fullScreen: false,
   playList: [],
