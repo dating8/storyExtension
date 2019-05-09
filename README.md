@@ -1,6 +1,6 @@
-# vue-music
+# story
 
-> 音乐播放器
+> 听故事
 
 ## Build Setup
 
